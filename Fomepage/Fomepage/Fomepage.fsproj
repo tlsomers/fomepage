@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>FomePage</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Plugin\PluginCompiler.fs" />
+        <Compile Include="Plugin\PluginLoadContext.fs" />
+        <Compile Include="Plugin\PluginManager.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="11.0.5" />
+      <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.0.5" />
+      <PackageReference Include="Avalonia.Desktop" Version="11.0.5" />
+      <PackageReference Include="Avalonia.FuncUI" Version="1.0.1" />
+      <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="11.0.5" />
+      <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.5" />
+      <PackageReference Include="FSharp.Compiler.Service" Version="43.7.400" />
+      <PackageReference Include="FsToolkit.ErrorHandling" Version="4.10.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Fomepage.Api\Fomepage.Api.fsproj" />
+    </ItemGroup>
+
+</Project>

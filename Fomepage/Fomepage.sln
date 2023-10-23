@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fomepage", "Fomepage\Fomepage.fsproj", "{C04DDDFA-D57C-4EB0-AF7B-E6F3F12B5CA0}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fomepage.Api", "Fomepage.Api\Fomepage.Api.fsproj", "{F889351B-C97D-4950-BD50-8A4D378391BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C04DDDFA-D57C-4EB0-AF7B-E6F3F12B5CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04DDDFA-D57C-4EB0-AF7B-E6F3F12B5CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04DDDFA-D57C-4EB0-AF7B-E6F3F12B5CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04DDDFA-D57C-4EB0-AF7B-E6F3F12B5CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F889351B-C97D-4950-BD50-8A4D378391BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F889351B-C97D-4950-BD50-8A4D378391BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F889351B-C97D-4950-BD50-8A4D378391BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F889351B-C97D-4950-BD50-8A4D378391BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
